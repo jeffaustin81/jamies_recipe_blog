@@ -1,0 +1,5 @@
+name = Simple Contact
+description = Hides subject field and send a copy on contact form
+package = Support Modules
+core = 7.x
+files[] = simple_contact.module
