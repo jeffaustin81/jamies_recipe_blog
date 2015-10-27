@@ -1,20 +1,15 @@
 <?php
   function custom_follow_follow_networks_alter(&$networks, $uid = 0) {
     $networks[$uid]['etsy'] = array(
-      'title' => '',
+      'title' => 'Etsy',
       'domain' => 'etsy.com',
-      'type' => 'hidden',
     );
 
     $networks[$uid]['redbubble'] = array(
-      'title' => '',
+      'title' => 'Redbubble',
       'domain' => 'redbubble.com',
-      'type' => 'hidden',
     );
 
-    $networks[$uid]['facebook'] = array(
-      'type' => 'hidden',
-      'title' => '',
-    );
+
 
   }

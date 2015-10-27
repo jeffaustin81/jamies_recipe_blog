@@ -213,6 +213,7 @@ function follow_url_validate($form) {
     }
     form_error($form, $message);
   }
+  
 }
 
 /**
