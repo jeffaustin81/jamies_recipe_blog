@@ -217,7 +217,7 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'jamies_database',
+      'database' => 'jamies_blog_database',
       'username' => 'jamies_admin',
       'password' => 'epicodus',
       'host' => '127.0.0.1',
